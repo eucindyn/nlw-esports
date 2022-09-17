@@ -7,7 +7,7 @@
 
 <div align="left">
 
-> Trilha Explorer 
+> TRILHA EXPLORER 
 <br>
 Projeto desenvolvido no evento NLW - Next Level Week - da Rocketseat.
 <br>
