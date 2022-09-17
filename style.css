@@ -1,0 +1,150 @@
+:root {
+  --txt-color-1: #fff;
+  --txt-color-2: #a1a1a1;
+  --bg-color-1: #121214;
+  --bg-color-2: #2A2634;
+  --border-color: #443e54;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./assets/bg.jpg");
+  background-position: top center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-color: var(--bg-color-1);
+}
+
+body * {
+  line-height: 160%;
+  font-family: 'Inter', sans-serif;
+}
+
+header {
+  margin-top: 2rem;
+  height: 120px;
+}
+
+header div {
+  display: flex;
+  width: 120px;
+  margin: auto;
+  background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+  border-radius: 50%;
+  padding: 4px;
+  transition: transform .4s;
+  animation: upToDown .5s .2s backwards;
+}
+
+header div:hover {
+  transform: scale(1.1);
+}
+
+header img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  border-radius: 50%;
+}
+
+main {
+  max-width: 580px;
+  width: 90%;
+  margin: 2rem auto;
+  margin-top: 2rem;
+  display: grid;
+  gap: 1.5rem;
+}
+
+section {
+  padding-top: 4px;
+  border-radius: 10px;
+  background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+  animation: moveToRight .5s backwards;
+}
+
+section:nth-child(1) {
+  animation-delay: .2s;
+}
+
+section:nth-child(2) {
+  animation-delay: .5s;
+}
+
+section:nth-child(3) {
+  animation-delay: .8s;
+}
+
+section div {
+  padding: 1.5rem 2rem 2rem 2rem;
+  border-radius: 8px;
+  background-color: var(--bg-color-2);
+}
+
+h1 {
+  color: var(--txt-color-1);
+  font-weight: 900;
+}
+
+p {
+  color: var(--txt-color-2);
+  font-size: 1rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+li {
+  transition: transform .4s;
+}
+
+li:hover {
+  transform: scale(1.1);
+}
+
+.games-list img {
+  border-radius: 8px;
+  width: 90px;
+}
+
+.channels-list img {
+  border-radius: 50%;
+  width: 70px;
+  border: 1px solid var(--border-color);
+}
+
+/* === ANIMATION === */
+
+@keyframes upToDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes moveToRight {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
