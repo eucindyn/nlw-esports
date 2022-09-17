@@ -9,7 +9,7 @@
 
 > TRILHA EXPLORER 
 <br>
-Game Hub, um site centralizador de links, no estilo Linktree, feito para gamers. Projeto desenvolvido no evento NLW da Rocketseat.
+Um site centralizador de links, no estilo Linktree, feito para gamers. Projeto desenvolvido no evento NLW da Rocketseat.
 <br>
 <br>
 
