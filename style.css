@@ -13,7 +13,7 @@
 }
 
 body {
-  background-image: url("./assets/bg.jpg");
+  background-image: url("./assets/bg.webp");
   background-position: top center;
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -114,12 +114,10 @@ li:hover {
 
 .games-list img {
   border-radius: 8px;
-  width: 90px;
 }
 
 .channels-list img {
   border-radius: 50%;
-  width: 70px;
   border: 1px solid var(--border-color);
 }
 
