@@ -1,6 +1,6 @@
 # NLW-eSports
 <div align="center">
-<img src="https://user-images.githubusercontent.com/92797194/190870756-1a4a09ca-8b6d-4b29-a173-b1fd86b9f090.png" width="800px"
+<img src="https://github.com/eucindyn/nlw-esports/assets/92797194/69742ec5-1720-489c-9844-8c7498d2bef1.png" width="700px"
 </div>
 <br>
 <br>
